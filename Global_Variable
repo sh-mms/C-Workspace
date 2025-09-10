@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+    extern int i;
+
+    void foo();
+
+void swap (int *a, int *b) {
+    int temp = *a;
+    *a = *b;
+    *b = temp;
+}
